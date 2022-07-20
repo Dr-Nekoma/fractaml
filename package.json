@@ -1,0 +1,17 @@
+{
+  "esy": {
+    "build": "dune build"
+  },
+  "dependencies": {
+    "ocaml": "4.13.x",
+    "@opam/dune": "*",
+    "@opam/js_of_ocaml": "*",
+    "@opam/js_of_ocaml-ppx": "3.11.0"
+  },
+  "devDependencies": {
+    "@opam/ocaml-lsp-server": "*",
+    "@opam/ocamlformat": "*",
+    "@opam/ocamlformat-rpc": "*",
+    "@opam/utop": "*"
+  }
+}
