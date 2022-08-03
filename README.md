@@ -1,4 +1,4 @@
-# fractmal
+# fractaml
 
 This is the [mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set) implemented in OCaml.
 
@@ -12,7 +12,7 @@ This is the [mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set) imple
 - [js_of_ocaml-ppx](https://opam.ocaml.org/packages/js_of_ocaml-ppx/)
 - [npm](https://nodejs.org/en/)
 
-## How to run Fractmal
+## How to run Fractaml
 
 To execute the program, you first need `opam` to install the dependencies:
 
