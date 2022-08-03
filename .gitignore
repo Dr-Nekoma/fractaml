@@ -2,4 +2,4 @@
 /node_modules/
 /*.install
 /_build/
-.vscode
+/.vscode
