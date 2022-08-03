@@ -2,9 +2,9 @@
 
 This is the [mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set) implemented in OCaml.
 
-![Second level of Recursion]("f1.png")
+[![Second level of Recursion](./f1.png)]
 
-![Third level of Recursion]("f2.png")
+[![Third level of Recursion](./f2.png)]
 
 ## External Dependencies
 
