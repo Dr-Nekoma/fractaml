@@ -15,6 +15,7 @@ let square { real; imaginary } =
     imaginary = 2.0 *. real *. imaginary;
   }
 
-let magnitude { real; imaginary } = Float.sqrt (real ** 2.0 +. imaginary ** 2.0)
+let magnitude { real; imaginary } =
+  Float.sqrt ((real ** 2.0) +. (imaginary ** 2.0))
 
 let ( + ) = add

@@ -8,8 +8,7 @@ This is the [mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set) imple
 
 ## External Dependencies
 
-- [js_of_ocaml](https://opam.ocaml.org/packages/js_of_ocaml/)
-- [js_of_ocaml-ppx](https://opam.ocaml.org/packages/js_of_ocaml-ppx/)
+- [opam](https://opam.ocaml.org/)
 - [npm](https://nodejs.org/en/)
 
 ## How to run Fractaml
@@ -17,8 +16,9 @@ This is the [mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set) imple
 To execute the program, you first need `opam` to install the dependencies:
 
 ```bash
+opam switch create . --deps-only
 eval $(opam env)
-opam install js_of_ocaml js_of_ocaml-ppx dune
+
 ```
 
 To run:
