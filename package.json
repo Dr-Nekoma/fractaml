@@ -1,0 +1,22 @@
+{
+  "name": "my-rescript-app",
+  "version": "0.0.0",
+  "scripts": {
+    "res:build": "rescript",
+    "res:clean": "rescript clean",
+    "res:dev": "rescript -w",
+    "dev": "vite serve src"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@rescript/core": "^1.6.1",
+    "rescript": "^11.1.4"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}
